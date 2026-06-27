@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.db
+
+# Node
+node_modules/
+dist/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
