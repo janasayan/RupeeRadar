@@ -41,7 +41,7 @@ export default function MonthlyTrendChart({ metrics }: Props) {
           <XAxis dataKey="month" tick={{ fontSize: 11 }} />
           <YAxis tick={{ fontSize: 11 }} tickFormatter={fmt} />
           <Tooltip
-            formatter={(v: number) => [`₹${v.toLocaleString('en-IN')}`, '']}
+            formatter={(v) => [`₹${Number(v).toLocaleString('en-IN')}`, '']}
           />
           <Legend />
           <Bar dataKey="Income" fill="#10b981" radius={[4, 4, 0, 0]} />
